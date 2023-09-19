@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Atividade03 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+
+        int numero;
+        System.out.println("Digite um número: ");
+        numero = scanner.nextInt();
+        System.out.println("Você digitou o número: " + numero);
+    }
+} 
