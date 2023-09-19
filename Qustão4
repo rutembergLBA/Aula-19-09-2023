@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Atividade04 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+
+        int x;
+        int antecessor;
+        int sucessor;
+        System.out.println("Digite um número: ");
+        x = scanner.nextInt();
+        antecessor = x - 1;
+        sucessor = x + 1;
+        System.out.println("Seu antecessor é " + antecessor + ",e seu sucessor é " + sucessor);
+    }
+} 
