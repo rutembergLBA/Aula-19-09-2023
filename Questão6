@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class Atividade06 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+
+        int x;
+        int area;
+        int perimetro;
+        
+        System.out.println("Digite o valor de um lado do quadrado:");
+        x = scanner.nextInt();
+        area = x * x;
+        perimetro = x * 4;
+        System.out.println("A área do quadrado é " + area + ",e o seu perímetro é " + perimetro);
+    }
+} 
