@@ -1,0 +1,12 @@
+import java.util.Scanner;
+
+public class Atividade02 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+
+        String nome;
+        System.out.println("Informe seu nome:");
+        nome = scanner.next();
+        System.out.println(nome+",já é um progamador!!!");
+    }
+} 
