@@ -1,0 +1,30 @@
+import java.util.Scanner;
+
+public class Atividade08 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+
+        int n1;
+        int meses;
+        int semanas;
+        int dias;
+        int horas;
+        int minutos;
+        int segundos;
+        
+        System.out.println("Digite sua idade:");
+        n1 = scanner.nextInt();
+        meses = n1 * 12;
+        semanas = meses * 4;
+        dias = n1 * 365;
+        horas = dias * 24;
+        minutos = horas * 60;
+        segundos = minutos * 60;
+        System.out.println("Sua idade em meses é " + meses);
+        System.out.println("Sua idade em semanas é " + semanas);
+        System.out.println("Sua idade em dias é " + dias); 
+        System.out.println("Sua idade em horas é " + horas);
+        System.out.println("Sua idade em minutos é " + minutos);
+        System.out.println("Sua idade em segundos é " + segundos);
+    }
+} 
