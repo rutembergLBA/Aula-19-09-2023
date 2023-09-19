@@ -1,0 +1,21 @@
+
+import java.util.Scanner;
+
+public class Atividade07 {
+    public static void main() {
+        Scanner scanner = new Scanner(System.in);
+
+        float n1;
+        float n2;
+        float area;
+        double iptu;
+        
+        System.out.println("Digite a primeira medida: ");
+        n1 = scanner.nextFloat();
+        System.out.println("Digite a segunda medida: ");
+        n2 = scanner.nextFloat();
+        area = n1 * n2;
+        iptu = area * 0.29;
+        System.out.println("A área do retângulo é igual a " + area + ",o iptu a ser pago é " + iptu);
+    }
+} 
